@@ -15,7 +15,7 @@
 //     this.age = age;
 //     //method
 //     this. greet = ()=> {
-//         return `Hello, my name is ${this.name} 
+//         return `Hello, my name is ${this.name}
 //     and I'm ${this.age} years old.`;
 //   }
 // }
@@ -41,6 +41,7 @@
 
 // // Create an instance (object) of the Person class
 // const person1 = new Person("Amine", 30);
+// console.log(person1)
 // console.log(person1.greet());
 // *******************************************************************************************************
 // //! Encapsulation (Private and Public Members)
@@ -59,8 +60,9 @@
 //     return this.#balance;
 //   }
 // }
-
+// // console.log(BankAccount)
 // const account = new BankAccount(1000);
+// console.log(account)
 // account.deposit(500);
 // console.log(account.getBalance());
 
@@ -119,7 +121,9 @@
 //     return `${this.name} meows.`;
 //   }
 // }
-
+// console.log(Dog)
+// const chien = new Dog('loullou')
+// console.log(chien)
 // // // Polymorphic behavior
 // const animals = [
 //   new Dog("Buddy"),
@@ -128,6 +132,7 @@
 // ];
 
 // animals.forEach((animal) => {
-//   console.log(animal.speak());
+//   console.log(animals.speak());
 // });
 // ***********************************************************************************
+
